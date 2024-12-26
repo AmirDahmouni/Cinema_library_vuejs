@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"], // Added "DOM" for browser-specific APIs
+    "module": "ESNext",
+    "moduleResolution": "node", // Switch to "node" for better compatibility
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["vite.config.ts", "src/**/*.ts", "src/**/*.tsx"]
+}
